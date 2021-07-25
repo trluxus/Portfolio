@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/about-style.css">
+        <link rel="stylesheet" type="text/css" href="css/header-style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar-style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">Home</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-4">  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#skills">My skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#projects">My projects</a>
+                    </li>
+                </ul>  
+            </div>
+        </nav>
+        <header class="header">
+            <div class="overlay">
+                <div class="container">
+                    <div class="description text-center">
+                        <h3>
+                            Hello, welcome to my portfolio
+                            <p>
+                                Portfolio using Bootstrap 4.
+                            </p>
+                        </h3>
+                    </div>
+                </div>
+            </div>     
+        </header>
+        <div id="about" class="row about">
+            <div class="col-12">
+                <h1 class="text-center">
+                    About me
+                </h1>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img align="center" src="images/dev.jpg" class="img-fluid">
+                <span class="text-justify">Nure student</span>
+             </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 desc">
+                <h3>Dima</h3>
+                <p>
+                    KIU student.
+                    Barcherol degree in computer engineering.
+                    A lot of things that i like and some that i don`t like.
+                </p>
+            </div>
+        </div>
+        <div id="skills" class="row text-center">
+            <div class="col-12">
+                <h1 class="text-center">
+                    My skills
+                </h1>
+            </div>
+            <div class="col-6 col-md-4">
+                C#
+            </div>
+            <div class="col-6 col-md-4">
+                .Net Core
+            </div>
+            <div class="col-6 col-md-4">
+                JS
+            </div>
+            <div class="col-6 col-md-4">
+                MSSQL
+            </div>
+            <div class="col-6 col-md-4">
+                MySQL
+            </div>
+            <div class="col-6 col-md-4">
+                VHDL
+            </div>
+        </div>
+        <div id="projects" class="row text-center">
+            <div class="col-12">
+                <h1 class="text-center">
+                    My projects
+                </h1>
+            </div>
+            <div class="col-12">
+                <h2>
+                    CPU
+                </h2>
+                <img align="center" src="images/CPU.png" class="img-fluid">
+                <p>
+                    Designing a processor module.
+                    Capable of next operations:
+                </p>
+                <ol>
+                    <li>division of integer binary unsigned number by the method without restoring the remainder;</li>
+                    <li>conversion of an unsigned integer binary to an unsigned decimal integer.</li> 
+                </ol>            
+            </div>
+            <div class="col-12">
+                <h2>
+                    DriveTracker
+                </h2>
+                <img align="center" src="images/DriveTracker.png" class="img-fluid">
+                <p>
+                    Software intended for monitoring the state of free space on system disks.
+                    Created with next technologies:
+                </p> 
+                <ol>
+                    <li>.Net Framework;</li>
+                    <li>Windows Forms.</li>     
+                </ol> 
+            </div>
+        </div>
+        <script type="text/javascript" src='js/main.js'></script>
+    </body>
+</html>
